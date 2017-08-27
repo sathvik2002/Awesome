@@ -1,6 +1,7 @@
 .navbar{
 	border-radius: 0;
 	margin-bottom: 0;
+	background-color: #f2f2f2;	
 }
 
 .nav-brand{
@@ -16,17 +17,17 @@
 	font-family: 'Orbitron', sans-serif;
 }
 
-.navbar-inverse .navbar-nav li a{
+.navbar-default .navbar-nav li a{
 	color: #d5d5d5;
 	font-size: 1.3em;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background: none;
 
 }
 
-.navbar-inverse{
+.navbar-default{
 	min-height: 60px;
 }
 
@@ -37,6 +38,8 @@
    width: 100%;
 }
 
+
+
 #item2{
    background: url('../images/back2.jpg');
    background-size: cover;
@@ -44,3 +47,57 @@
    width: 100%;
 }
 
+#item3{
+   background: url('../images/night-sky.jpg');
+   background-size: cover;
+   height: 91vh;
+   width: 100%;
+}
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.sm-awesome{
+	color: #07cb79;
+	font-size: 1.12em;
+
+}
+
+.lg-awesome{
+	color: #07cb79;
+	border: 2px solid white;
+	font-size: 4em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+    font-family: 'Orbitron', sans-serif;
+}
+@media(max-width: 543px){
+	.lg-awesome{
+		font-size: 2em;
+	}
+}
+
+.tag-1{
+   font-size: 1.4em;
+   font-family: 'Merriweather', serif;
+   color: #e6e6e6;
+}
+
+.bold-let{
+   color: white;
+   font-size: 1.12em;
+}
+
+
+.btn{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	padding: 12px 22px;
+	background: #07cb79;
+	border-radius: 1;
+	border: 0;
+}
